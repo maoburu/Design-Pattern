@@ -11,7 +11,7 @@ import org.junit.Test;
 * @date 2018年1月10日 下午3:45:48 
 *
  */
-public class SignlePattern {
+public class SignleTest {
 		
 	@Test
 	public void test1() {
