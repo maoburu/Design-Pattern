@@ -6,9 +6,9 @@ import org.junit.Test;
 /**
  * 
 * @ClassName: SignlePattern 
-* @Description: µ¥ÀıÄ£Ê½
+* @Description: å•ä¾‹æ¨¡å¼
 * @author xiejian 
-* @date 2018Äê1ÔÂ10ÈÕ ÏÂÎç3:45:48 
+* @date 2018å¹´1æœˆ10æ—¥ ä¸‹åˆ3:45:48 
 *
  */
 public class SignleTest {
@@ -59,9 +59,9 @@ public class SignleTest {
 /**
  * 
 * @ClassName: LaztSingle 
-* @Description: ÀÁººÊ½µ¥Àı£¨Ïß³Ì²»°²È«£©
+* @Description: æ‡’æ±‰å¼å•ä¾‹ï¼ˆçº¿ç¨‹ä¸å®‰å…¨ï¼‰
 * @author xiejian 
-* @date 2018Äê1ÔÂ10ÈÕ ÏÂÎç3:17:36 
+* @date 2018å¹´1æœˆ10æ—¥ ä¸‹åˆ3:17:36 
 *
  */
 class LazySingle1 {
@@ -83,8 +83,8 @@ class LazySingle1 {
  * 
 * @ClassName: LazySingle2 
 * @Description: TODO
-* @author xiejian ÀÁººÊ½µ¥Àı£¨Ïß³Ì²»°²È«£©
-* @date 2018Äê1ÔÂ10ÈÕ ÏÂÎç3:23:20 
+* @author xiejian æ‡’æ±‰å¼å•ä¾‹ï¼ˆçº¿ç¨‹ä¸å®‰å…¨ï¼‰
+* @date 2018å¹´1æœˆ10æ—¥ ä¸‹åˆ3:23:20 
 *
  */
 class LazySingle2 {
@@ -104,10 +104,10 @@ class LazySingle2 {
 /**
  * 
 * @ClassName: LazySingle 
-* @Description: ÀÁººÊ½µ¥Àı Ë«ÖØ¼ì²é(Ïß³Ì°²È«)
-* 				Ä¿µÄ£ºÖ»ÔÚÖ»ÔÚµÚÒ»´Îµ÷ÓÃÊ±¼ÓËø£¬Ìá¸ßĞ§ÂÊ
+* @Description: æ‡’æ±‰å¼å•ä¾‹ åŒé‡æ£€æŸ¥(çº¿ç¨‹å®‰å…¨)
+* 				ç›®çš„ï¼šåªåœ¨åªåœ¨ç¬¬ä¸€æ¬¡è°ƒç”¨æ—¶åŠ é”ï¼Œæé«˜æ•ˆç‡
 * @author xiejian 
-* @date 2018Äê1ÔÂ10ÈÕ ÏÂÎç3:11:15 
+* @date 2018å¹´1æœˆ10æ—¥ ä¸‹åˆ3:11:15 
 *
  */
 class LazySingle3{
@@ -131,10 +131,10 @@ class LazySingle3{
 /**
  * 
 * @ClassName: LazySingle4 
-* @Description: ÀÁººÊ½µ¥Àı ¾²Ì¬ÄÚ²¿Àà£¨Ïß³Ì°²È«  ÍÆ¼ö£©
-* 				Ö»ÔÚÊ×´Îµ÷ÓÃinstanceÊÇ»á½øĞĞÄÚ²¿ÀàµÄ³õÊ¼»¯£¬²¢Éú³Éµ¥Àı¶ÔÏó£¬½â¾öÁËÏß³Ì°²È«ÎÊÌâ£¬Í¬Ê±±ÜÃâÁË¼ÓËø´øÀ´µÄĞ§ÂÊÎÊÌâ
+* @Description: æ‡’æ±‰å¼å•ä¾‹ é™æ€å†…éƒ¨ç±»ï¼ˆçº¿ç¨‹å®‰å…¨  æ¨èï¼‰
+* 				åªåœ¨é¦–æ¬¡è°ƒç”¨instanceæ˜¯ä¼šè¿›è¡Œå†…éƒ¨ç±»çš„åˆå§‹åŒ–ï¼Œå¹¶ç”Ÿæˆå•ä¾‹å¯¹è±¡ï¼Œè§£å†³äº†çº¿ç¨‹å®‰å…¨é—®é¢˜ï¼ŒåŒæ—¶é¿å…äº†åŠ é”å¸¦æ¥çš„æ•ˆç‡é—®é¢˜
 * @author xiejian 
-* @date 2018Äê1ÔÂ10ÈÕ ÏÂÎç3:26:34 
+* @date 2018å¹´1æœˆ10æ—¥ ä¸‹åˆ3:26:34 
 *
  */
 class LazySingle4 {
@@ -152,12 +152,12 @@ class LazySingle4 {
 /**
  * 
 * @ClassName: HungrySingle 
-* @Description: ¶öººÊ½µ¥Àı £º
-* 				ÔÚÀà´´½¨Ê±¾ÍÒÑ´´½¨¾²Ì¬¶ÔÏó £¬
-* 					Àû£ºÌìÉúÏß³Ì°²È« £¬Ê×´Îµ÷ÓÃ¼ÓÔØ¿ì
-* 					±×£ºÎ´±»µ÷ÓÃÊ±¾ÍÒÑ´´½¨ºÃ¶ÔÏó£¬Õ¼ÓÃÄÚ´æ×ÊÔ´
+* @Description: é¥¿æ±‰å¼å•ä¾‹ ï¼š
+* 				åœ¨ç±»åˆ›å»ºæ—¶å°±å·²åˆ›å»ºé™æ€å¯¹è±¡ ï¼Œ
+* 					åˆ©ï¼šå¤©ç”Ÿçº¿ç¨‹å®‰å…¨ ï¼Œé¦–æ¬¡è°ƒç”¨åŠ è½½å¿«
+* 					å¼Šï¼šæœªè¢«è°ƒç”¨æ—¶å°±å·²åˆ›å»ºå¥½å¯¹è±¡ï¼Œå ç”¨å†…å­˜èµ„æº
 * @author xiejian 
-* @date 2018Äê1ÔÂ10ÈÕ ÏÂÎç3:31:11 
+* @date 2018å¹´1æœˆ10æ—¥ ä¸‹åˆ3:31:11 
 *
  */
 class HungrySingle {
@@ -168,6 +168,7 @@ class HungrySingle {
 	public static HungrySingle getInstance() {
 		return instance;
 	}
+	
 }
 
 
