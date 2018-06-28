@@ -8,8 +8,8 @@ public class AdapterTest {
 	/**
 	 * 
 	* @Title: test1 
-	* @Description: ¶ÔÏóÊÊÅäÆ÷Ä£Ê½£ºÊÊÅäÆ÷ÓëÊÊÅäÕßÖ®¼äÊÇ¹ØÁª¹ØÏµ£¬ÊÊÅäÆ÷Í¨¹ýÊµÏÖÄ¿±ê½Ó¿Ú»òÀàµÄ·½·¨£¬°ü×°ÊÊÅäÕßµÄÊµÀý¶ÔÏó²¢µ÷ÓÃÆä·½·¨£¬
-	* 				´Ó¶øÍê³ÉÊÊÅäÕßÀàÓëÄ¿±êÀàµÄÊÊÅä¡£
+	* @Description: å¯¹è±¡é€‚é…å™¨æ¨¡å¼ï¼šé€‚é…å™¨ä¸Žé€‚é…è€…ä¹‹é—´æ˜¯å…³è”å…³ç³»ï¼Œé€‚é…å™¨é€šè¿‡å®žçŽ°ç›®æ ‡æŽ¥å£æˆ–ç±»çš„æ–¹æ³•ï¼ŒåŒ…è£…é€‚é…è€…çš„å®žä¾‹å¯¹è±¡å¹¶è°ƒç”¨å…¶æ–¹æ³•ï¼Œ
+	* 				ä»Žè€Œå®Œæˆé€‚é…è€…ç±»ä¸Žç›®æ ‡ç±»çš„é€‚é…ã€‚
 	* @param:     
 	* @return void    
 	* @throws
@@ -26,6 +26,5 @@ public class AdapterTest {
 	
 	@Test
 	public void test2() {
-		
 	}
 }
