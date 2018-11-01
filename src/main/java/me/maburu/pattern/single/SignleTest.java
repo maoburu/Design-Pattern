@@ -88,7 +88,7 @@ class LazySingle1 {
 *
  */
 class LazySingle2 {
-	private volatile static LazySingle2 instance;
+	private static LazySingle2 instance;
 	
 	private LazySingle2() {}
 	
@@ -112,7 +112,7 @@ class LazySingle2 {
  */
 class LazySingle3{
 	
-	private static LazySingle3 instance;
+	private volatile static LazySingle3 instance;
 	
 	private LazySingle3() {}
 	
